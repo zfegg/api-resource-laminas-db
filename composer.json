@@ -1,0 +1,25 @@
+{
+  "name": "zfegg/api-resource-laminas-db",
+  "description": "Restful api resource of laminas-db.",
+  "minimum-stability": "stable",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Moln Xie",
+      "email": "moln.xie@gmail.com"
+    }
+  ],
+  "require": {
+  },
+  "autoload": {
+    "psr-4": {
+      "Zfegg\\ApiResourceLaminasDb\\": "src/"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "ZfeggTest\\ApiResourceLaminasDb\\": "test/"
+    }
+  }
+
+}
